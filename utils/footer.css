@@ -1,0 +1,32 @@
+html, body {
+    height: 100%; /*we need the height to be 100% to make sure the footer is not half way up the screen when page doesn't occupy the whole available space*/
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+}
