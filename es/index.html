@@ -13,14 +13,14 @@
   <div class="max-w-screen-xl mx-auto flex items-center justify-between"><a href="/es/index.html"><img alt="Inicio" src="/images/logo.jpeg" class="h-[140px] w-[140px] object-contain mx-auto"></a>
     <nav class="flex items-center space-x-6">
       <ul class="flex space-x-6">
-        <li><a href="/es/recetas/recetas.html">
+        <li><a href="/es/recetas/recetas.html" target="_self">
             <h1 class="text-lg text-black hover:text-gray-600">Recetas</h1>
           </a></li>
-        <li><a href="/es/cocina/cocina.html">
+        <li><a href="/es/cocina/cocina.html" target="_self">
             <h1 class="text-lg text-black hover:text-gray-600">Mi Cocina</h1>
           </a></li>
-        <li><a href="https://www.instagram.com/izakayadeemi/"><img alt="Mi Instagram" src="/images/instagram.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
-        <li><a href="mailto:izakayadeemi@gmail.com"><img alt="Recetas" src="/images/email.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
+        <li><a href="https://www.instagram.com/izakayadeemi/" target="_blank"><img alt="Mi Instagram" src="/images/instagram.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
+        <li><a href="mailto:izakayadeemi@gmail.com" target="_blank"><img alt="Recetas" src="/images/email.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
       </ul>
     </nav>
   </div>
@@ -48,11 +48,17 @@
     <div class="mt-8"><a href="/es/recetas/recetas.html" class="text-lg font-semibold text-blue-500 hover:text-blue-600">Todas las Recetas</a></div>
   </div>
 </section>
-<div class="horizontal">
-  <div class="vertical">
-    <h1 class="title">Mi Cocina</h1>
-    <p class="description">Echale un vistazo a los utensilios que utilizo para preparar mis recetas.</p>
-<a href="/kitchen_es.html" class="cta">Más</a></div>
-<img alt="Foto Cocina Pequeña" src="images/kitchen_large.jpeg" class="img_large"><img alt="Foto Cocina Grande" src="images/kitchen_small.jpeg" class="img_small"></div>
+<section class="max-w-screen-xl mx-auto py-12 px-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+      <h1 class="text-5xl font-pixel font-bold text-gray-800">Mi Cocina</h1>
+      <p class="mt-6 text-gray-700 text-lg leading-relaxed">Echale un vistazo a los utensilios que utilizo para preparar mis recetas.</p>
+<a href="/es/cocina/cocina.html">
+        <h3 class="mt-10 underline text-lg font-semibold text-gray-800">Más</h3>
+      </a></div>
+    <div><img alt="Foto Cocina Pequeña" src="images/kitchen_large.jpeg" class="img_large"></div>
+    <div><img alt="Foto Cocina Grande" src="images/kitchen_small.jpeg" class="img_small"></div>
+  </div>
+</section>
     </body>
 </html>

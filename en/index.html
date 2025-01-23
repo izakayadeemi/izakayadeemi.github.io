@@ -13,14 +13,14 @@
   <div class="max-w-screen-xl mx-auto flex items-center justify-between"><a href="/en/index.html"><img alt="Home" src="/images/logo.jpeg" class="h-[140px] w-[140px] object-contain mx-auto"></a>
     <nav class="flex items-center space-x-6">
       <ul class="flex space-x-6">
-        <li><a href="/en/recipes/recipes.html">
+        <li><a href="/en/recipes/recipes.html" target="_self">
             <h1 class="text-lg text-black hover:text-gray-600">Recipes</h1>
           </a></li>
-        <li><a href="/en/kitchen/kitchen.html">
+        <li><a href="/en/kitchen/kitchen.html" target="_self">
             <h1 class="text-lg text-black hover:text-gray-600">My Kitchen</h1>
           </a></li>
-        <li><a href="https://www.instagram.com/izakayadeemi/"><img alt="My Instagram" src="/images/instagram.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
-        <li><a href="mailto:izakayadeemi@gmail.com"><img alt="Recipes" src="/images/email.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
+        <li><a href="https://www.instagram.com/izakayadeemi/" target="_blank"><img alt="My Instagram" src="/images/instagram.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
+        <li><a href="mailto:izakayadeemi@gmail.com" target="_blank"><img alt="Recipes" src="/images/email.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
       </ul>
     </nav>
   </div>
@@ -48,11 +48,17 @@
     <div class="mt-8"><a href="/en/recipes/recipes.html" class="text-lg font-semibold text-blue-500 hover:text-blue-600">All Recipes</a></div>
   </div>
 </section>
-<div class="horizontal">
-  <div class="vertical">
-    <h1 class="title">My Kitchen</h1>
-    <p class="description">Take a sneak peek into the tools I use to create my recipes.</p>
-<a href="/kitchen_en.html" class="cta">More</a></div>
-<img alt="Large Kitchen Image" src="images/kitchen_large.jpeg" class="img_large"><img alt="Small Kitchen Image" src="images/kitchen_small.jpeg" class="img_small"></div>
+<section class="max-w-screen-xl mx-auto py-12 px-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+      <h1 class="text-5xl font-pixel font-bold text-gray-800">My Kitchen</h1>
+      <p class="mt-6 text-gray-700 text-lg leading-relaxed">Take a sneak peek into the tools I use to create my recipes.</p>
+<a href="/en/kitchen/kitchen.html">
+        <h3 class="mt-10 underline text-lg font-semibold text-gray-800">More</h3>
+      </a></div>
+    <div><img alt="Large Kitchen Image" src="images/kitchen_large.jpeg" class="img_large"></div>
+    <div><img alt="Small Kitchen Image" src="images/kitchen_small.jpeg" class="img_small"></div>
+  </div>
+</section>
     </body>
 </html>
