@@ -1,7 +1,7 @@
 $(function () {
     $("#languageSelector").selectmenu();
 
-    document.getElementById("#languageSelector").onchange = changeListener;
+    document.getElementById("languageSelector").onchange = changeListener;
 
     function changeListener() {
         var value = this.value
