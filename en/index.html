@@ -7,7 +7,11 @@
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
   <title>Izakaya De Emi</title>
   <link href="/images/logo.jpeg" rel="icon" type="image/x-icon">
+  <link href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+  <script src="/js/languageSelector.js"></script>
 </head>
 <body class="bg-gray-100 font-sans"><header class="py-1 bg-white shadow-md">
   <div class="max-w-screen-xl mx-auto flex items-center justify-between"><a href="/en/index.html"><img alt="Home" src="/images/logo.jpeg" class="h-[140px] w-[140px] object-contain mx-auto"></a>
@@ -21,6 +25,7 @@
           </a></li>
         <li><a href="https://www.instagram.com/izakayadeemi/" target="_blank"><img alt="My Instagram" src="/images/instagram.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
         <li><a href="mailto:izakayadeemi@gmail.com" target="_blank"><img alt="Recipes" src="/images/email.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
+        <li><select id="languageSelector"><option>es</option><option>en</option></select></li>
       </ul>
     </nav>
   </div>
@@ -29,19 +34,19 @@
   <div class="max-w-screen-xl mx-auto text-center">
     <h2 class="text-4xl font-semibold text-gray-800 mb-8">Recipes</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="/en/recipes/athirdbread.html"><img alt="Featured Recipe 1" src="/recipes/3_A_third_bread/images/cover.jpeg" class="w-full h-56 object-cover"></a>
-        <div class="p-4">
-          <h3 class="text-xl font-semibold text-gray-800">A Third Bread</h3>
-        </div>
-      </div>
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="/en/recipes/someotherbread.html"><img alt="Featured Recipe 2" src="/recipes/2_Some_other_bread/images/cover.jpeg" class="w-full h-56 object-cover"></a>
-        <div class="p-4">
-          <h3 class="text-xl font-semibold text-gray-800">Some Other Bread</h3>
-        </div>
-      </div>
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="/en/recipes/sourdoughryebread.html"><img alt="Featured Recipe 3" src="/recipes/1_Sourdough_rye_bread/images/cover.jpeg" class="w-full h-56 object-cover"></a>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="/en/recipes/sourdoughryebread.html"><img alt="Featured Recipe 1" src="/recipes/11_Sourdough_rye_bread/images/cover.jpeg" class="w-full h-56 object-cover"></a>
         <div class="p-4">
           <h3 class="text-xl font-semibold text-gray-800">ourdough Rye Bread</h3>
+        </div>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="/en/recipes/oyakodon(chickenandeggricebowl).html"><img alt="Featured Recipe 2" src="/recipes/16_Oyakodon/images/cover.jpg" class="w-full h-56 object-cover"></a>
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-gray-800">yakodon (Chicken and Egg Rice Bowl)</h3>
+        </div>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="/en/recipes/kakiague(vegetabletempura).html"><img alt="Featured Recipe 3" src="/recipes/14_Kakiague/images/cover.jpeg" class="w-full h-56 object-cover"></a>
+        <div class="p-4">
+          <h3 class="text-xl font-semibold text-gray-800">akiague (Vegetable Tempura)</h3>
         </div>
       </div>
     </div>

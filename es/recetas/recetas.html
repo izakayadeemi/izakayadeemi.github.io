@@ -7,7 +7,11 @@
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
   <title>Recetas</title>
   <link href="/images/logo.jpeg" rel="icon" type="image/x-icon">
+  <link href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+  <script src="/js/languageSelector.js"></script>
 </head>
 <body class="bg-gray-100 font-sans"><header class="py-1 bg-white shadow-md">
   <div class="max-w-screen-xl mx-auto flex items-center justify-between"><a href="/es/index.html"><img alt="Inicio" src="/images/logo.jpeg" class="h-[140px] w-[140px] object-contain mx-auto"></a>
@@ -21,6 +25,7 @@
           </a></li>
         <li><a href="https://www.instagram.com/izakayadeemi/" target="_blank"><img alt="Mi Instagram" src="/images/instagram.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
         <li><a href="mailto:izakayadeemi@gmail.com" target="_blank"><img alt="Recetas" src="/images/email.svg" class="h-6 w-6 object-contain mx-auto"></a></li>
+        <li><select id="languageSelector"><option>es</option><option>en</option></select></li>
       </ul>
     </nav>
   </div>
@@ -32,17 +37,22 @@
   </div>
 </section>
 <section class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 p-4">
-  <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="untercerpanincreible.html"><img alt="Receta Un tercer pan increible" src="/recipes/3_A_third_bread/images/cover.jpeg" class="w-full h-56 object-cover"></a>
+  <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="oyakodon(boldearrozconpolloyhuevo).html"><img alt="Receta Oyakodon (Bol de arroz con pollo y huevo)" src="/recipes/16_Oyakodon/images/cover.jpg" class="w-full h-56 object-cover"></a>
     <div class="p-4">
-      <h3 class="text-lg font-semibold text-gray-800">Un tercer pan increible</h3>
+      <h3 class="text-lg font-semibold text-gray-800">Oyakodon (Bol de arroz con pollo y huevo)</h3>
     </div>
   </div>
-  <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="otropanincreible.html"><img alt="Receta Otro Pan Increible" src="/recipes/2_Some_other_bread/images/cover.jpeg" class="w-full h-56 object-cover"></a>
+  <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="galletasdemiso.html"><img alt="Receta Galletas de miso" src="/recipes/15_Miso_cookies/images/cover.jpeg" class="w-full h-56 object-cover"></a>
     <div class="p-4">
-      <h3 class="text-lg font-semibold text-gray-800">Otro Pan Increible</h3>
+      <h3 class="text-lg font-semibold text-gray-800">Galletas de miso</h3>
     </div>
   </div>
-  <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="pandecentenodemasamadre.html"><img alt="Receta Pan de Centeno de Masa Madre" src="/recipes/1_Sourdough_rye_bread/images/cover.jpeg" class="w-full h-56 object-cover"></a>
+  <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="kakiague(tempuradeverduras).html"><img alt="Receta Kakiague (Tempura de verduras)" src="/recipes/14_Kakiague/images/cover.jpeg" class="w-full h-56 object-cover"></a>
+    <div class="p-4">
+      <h3 class="text-lg font-semibold text-gray-800">Kakiague (Tempura de verduras)</h3>
+    </div>
+  </div>
+  <div class="bg-white shadow-lg rounded-lg overflow-hidden"><a href="pandecentenodemasamadre.html"><img alt="Receta Pan de Centeno de Masa Madre" src="/recipes/11_Sourdough_rye_bread/images/cover.jpeg" class="w-full h-56 object-cover"></a>
     <div class="p-4">
       <h3 class="text-lg font-semibold text-gray-800">Pan de Centeno de Masa Madre</h3>
     </div>
