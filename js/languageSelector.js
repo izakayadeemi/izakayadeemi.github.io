@@ -3,6 +3,7 @@ function changeLanguage() {
     document.getElementById("languageSelector").addEventListener('change', changeListener)
 
     function changeListener() {
+        console.log("changeListener")
         var value = this.value
         console.log(value);
 
