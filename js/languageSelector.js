@@ -1,7 +1,8 @@
 $(function () {
-    $("#languageSelector").selectmenu();
+    // $("#languageSelector").selectmenu();
 
     document.getElementById("languageSelector").onchange = changeListener;
+    document.getElementById("languageSelector").addEventListener('change', changeListener)
 
     function changeListener() {
         var value = this.value
