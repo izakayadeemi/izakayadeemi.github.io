@@ -1,6 +1,4 @@
-$(function () {
-    // $("#languageSelector").selectmenu();
-
+function changeLanguage() {
     document.getElementById("languageSelector").onchange = changeListener;
     document.getElementById("languageSelector").addEventListener('change', changeListener)
 
@@ -27,4 +25,4 @@ $(function () {
             window.open(document.URL)
         }
     }
-});
+}
