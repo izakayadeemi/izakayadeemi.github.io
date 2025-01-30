@@ -9,7 +9,7 @@ document.getElementById("languageSelector").onchange = function () {
 
     var newLocation = curLocation.split("/").map((s, i) => {
         let retV;
-        if (i == 4) {
+        if (i == 3) {
             retV = value
         } else {
             retV = s
@@ -20,6 +20,6 @@ document.getElementById("languageSelector").onchange = function () {
 
     if (newLocation != curLocation) {
         console.log("opening newLocation");
-        window.open(document.URL)
+        window.open(newLocation, "_self")
     }
 }
