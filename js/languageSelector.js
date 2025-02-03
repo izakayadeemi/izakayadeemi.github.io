@@ -3,5 +3,5 @@ document.getElementById("languageSelector").onchange = function() {
     const value = this.value
     console.log(value);
 
-    window.open(value)
+    window.open(url = value, target = "_blank")
 }
